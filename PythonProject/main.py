@@ -34,7 +34,7 @@ class PolygonCollision:
             for (p1, p2) in translated_P_edges:
                 for (q1, q2) in Q_edges:
                     if self.line_intersection(p1, p2, q1, q2):
-                        return dx, p1, p2, q1, q2  # Return translation and colliding edges
+                        return dx, p1, p2, q1, q2  
 
         return None
 
